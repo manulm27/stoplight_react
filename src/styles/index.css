@@ -1,12 +1,54 @@
+.hold{
+    width: 40px;
+    height: 100px;
+}
 
-/* 
+.semaforo{
+    width: 160px;
+    height: 460px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.red{
+    background-color:  rgb(171, 38, 38);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
 
-*/
+.activeRed{
+    background-color: rgb(171, 38, 38);
+    box-shadow: 0px 0px 15px 15px #DDDAAC;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.yellow{
+    background-color: rgb(201, 201, 66);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.activeYellow{
+    background-color: rgb(201, 201, 66);
+    box-shadow: 0px 0px 15px 15px #DDDAAC;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.green{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.activeGreen{
+    background-color: green;
+    box-shadow: 0px 0px 15px 15px #DDDAAC;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
